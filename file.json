@@ -1,6 +1,6 @@
 {
-    "host": "localhost",
-    "user": "root",
-    "password": "root",
-    "database": "scandiweb"
+    "host": "",
+    "user": "",
+    "password": "",
+    "database": ""
 }
