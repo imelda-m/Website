@@ -26,10 +26,12 @@
 
           <?php
            echo '<link rel="stylesheet" type="text/css" href="./styles/styleP.css">';
-             require('database.php');
-             $db = new Database();
-             $db->displayPrFromDb();
-
+           require_once('ProductManager.php');
+           require_once('database.php');
+           $db = new Database();
+           $manager = new ProductManager($db);
+           $manager->displayProducts();
+        
             echo '<link rel="stylesheet" type="text/css" href="./styles/styleP.css">';
           ?>
           </div>
